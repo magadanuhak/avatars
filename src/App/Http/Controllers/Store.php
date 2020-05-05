@@ -14,8 +14,8 @@ class Store extends Controller
         $avatar = $request->user()->avatar;
         $avatar->store($request->file('avatar'));
 
-        return response([
+        return response()->json([
             'saved_name' => $request->user()->avatar_link
-        ])->json();
+        ]);
     }
 }
