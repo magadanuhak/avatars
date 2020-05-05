@@ -13,6 +13,8 @@ class Update extends Controller
     {
         $avatar = Auth::user()->generateAvatar();
 
-        return ['avatarId' => $avatar->id];
+        return response()->json([
+            'saved_name' => Auth::user()->avatar_link
+        ]);
     }
 }
