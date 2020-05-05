@@ -8,6 +8,6 @@ Route::namespace('LaravelMerax\Avatars\App\Http\Controllers')
     ->middleware(['api', 'auth:api'])
     ->group(static function () {
         Route::post('', 'Store')->name('store');
-        Route::patch('{avatar}', 'Update')->name('update');
+        Route::patch('', 'Update')->name('update');
         Route::get('{avatar}', 'Show')->name('show');
     });
