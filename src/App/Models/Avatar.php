@@ -33,7 +33,7 @@ class Avatar extends Model implements Attachable
 
     protected $mimeTypes = ['image/png', 'image/jpg', 'image/jpeg', 'image/gif'];
 
-    protected $folder = 'avatars';
+    protected $folder = 'public/avatars';
 
     public function user()
     {
