@@ -14,7 +14,7 @@ class Update extends Controller
         $avatar = Auth::user()->generateAvatar();
 
         return response()->json([
-            'saved_name' => Auth::user()->avatar_link
+            'saved_name' => Auth::user()->fresh()->avatar_link
         ]);
     }
 }
