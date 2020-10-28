@@ -17,9 +17,9 @@
     ],
     "require": {
         "php": ">=7.4.0",
-        "laravel-enso/image-transformer": "^1.6",
-        "laravel-merax/file-server": "dev-master",
-        "laravolt/avatar": "^3.0"
+        "laravel-enso/image-transformer": "^1.6|^2.0",
+        "laravel-merax/file-server": "dev-master|dev-laravel-8",
+        "laravolt/avatar": "^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
