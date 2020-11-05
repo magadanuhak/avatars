@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0.0",
+        "php": ">=7.4.0",
         "laravel-enso/image-transformer": "^2.0",
         "laravel-merax/file-server": "dev-laravel-8",
         "laravolt/avatar": "^4.0"
