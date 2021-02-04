@@ -18,7 +18,7 @@
     "require": {
         "php": ">=7.4.0",
         "laravel-enso/image-transformer": "^2.0",
-        "magadanuhak/file-server": "dev-laravel-8",
+        "magadanuhak/file-server": "*",
         "laravolt/avatar": "^4.0"
     },
     "autoload": {
