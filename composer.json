@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.dev-task.ru/laravel-merax/file-server.git"
+            "url": "https://github.com/magadanuhak/file-server.git"
         }
     ],
     "require": {
