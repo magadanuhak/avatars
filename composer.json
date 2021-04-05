@@ -12,13 +12,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.dev-task.ru/laravel-merax/file-server.git"
+            "url": "https://github.com/magadanuhak/file-server.git"
         }
     ],
     "require": {
         "php": ">=7.4.0",
         "laravel-enso/image-transformer": "^2.0",
-        "laravel-merax/file-server": "dev-laravel-8",
+        "magadanuhak/file-server": "*",
         "laravolt/avatar": "^4.0"
     },
     "autoload": {
